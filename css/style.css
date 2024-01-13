@@ -86,3 +86,14 @@ header {
     font-size: 1.25rem;
     border-radius: 0.625rem;
 }
+
+#sign-in-button {
+    border-color: var(--light-dark-blue);
+    background-color: var(--light-dark-blue);
+}
+
+#sign-in-button:hover {
+    background-color: var(--white);
+    color: #000;
+    transition-duration: 0.3s;
+}
