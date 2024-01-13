@@ -97,3 +97,77 @@ header {
     color: #000;
     transition-duration: 0.3s;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-center-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+    background-color: var(--light-cyan-purplish);
+}
+
+.help-center-title {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-search-input {
+    width: 45rem;
+    height: 4.125rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.help-search-input:focus {
+    border-color: var(--light-dark-blue);
+}
+
+.help-search-input:hover {
+    border-color: var(--light-dark-blue);
+    transition-duration: 0.3s;
+}
+
+.help-search-input::placeholder {
+    color: #a8a7a7;
+}
+
+.search-submit-button {
+    width: 12rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-dark-blue);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.search-submit-button:hover {
+    background-color: var(--white);
+    color: #000;
+    transition-duration: 0.3s;
+}
+
+
