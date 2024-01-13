@@ -21,13 +21,14 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: var(--header-color);
-    padding: 2rem;
+    padding: 1.50rem;
 }
 
 .header-logo {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 4rem;
 }
 
 .abstract-logo {
@@ -47,11 +48,41 @@ header {
     color: var(--white);
     font-weight: bold;
     cursor: pointer;
+    font-size: 1.25rem;
+    padding-right: 0.312rem;
+}
+
+.help-center-area {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.help-center-area::before {
+    content: ' ';
+    border-left: 2px solid var(--white);
+    padding-right: 0.625rem;
+}
+
+.help-center-area:hover {
+    text-decoration: underline;
 }
 
 .header-navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.625rem;
+    gap: 0.938rem;
+    margin-right: 4rem;
+}
+
+.header-navbar-item {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 400;
+    border: 1px solid var(--white);
+    padding: 0.625rem;
+    font-size: 1.25rem;
+    border-radius: 0.625rem;
 }
