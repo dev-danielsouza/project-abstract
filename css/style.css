@@ -170,4 +170,58 @@ form {
     transition-duration: 0.3s;
 }
 
+.category-list-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.category-list-container {
+    width: 46.037rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.category-list-icon {
+    margin-right: 1.875rem;
+}
+
+.category-list-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1.563rem 0;
+}
+
+.category-list-description {
+    font-weight: 400;
+    color: #000000b6;
+    font-size: 1.5rem;
+    margin-bottom: 1.563rem;
+    line-height: 1.4;
+}
+
+.category-list-learn-more {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: var(--light-dark-blue)
+}
+
+.category-list-learn-more:hover {
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+
+
+
 
