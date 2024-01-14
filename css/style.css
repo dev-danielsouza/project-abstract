@@ -221,6 +221,15 @@ form {
     transition-duration: 0.3s;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--header-color);
+    color: var(--white);
+    padding-top: 3rem;
+}
+
 
 
 
